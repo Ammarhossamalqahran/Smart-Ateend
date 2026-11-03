@@ -244,7 +244,7 @@ tr:last-child td.ours{border-radius:0 0 16px 16px}
   <div class="inner s2in">
     <div class="big-num" id="bigNum">01</div>
     <div class="focus">
-      <div class="eyebrow" id="fEy">Team member 01 / 06</div>
+      <div class="eyebrow" id="fEy">Team member 01 / 08</div>
       <div class="focus-card card tilt" id="focusCard"><img id="fImg" alt="Student"></div>
       <h3 class="fname pre" id="fName">Ammar Hossam</h3>
       <div class="fcontrols"><button id="prev" aria-label="Previous">←</button><button id="next" aria-label="Next">→</button></div><div class="strip" id="strip"></div>
@@ -416,7 +416,7 @@ tr:last-child td.ours{border-radius:0 0 16px 16px}
   <div class="inner">
     <div class="eyebrow">The end</div>
     <h2>Thank you <span class="ac">for listening</span></h2>
-    <h2 class="ar">شكرا لاستماعكم</h2>
+    <h2 class="ar"></h2>
     <p class="sub" style="font-size:clamp(16px,2vw,26px)">Smart Presence Team</p>
     <div class="sg" id="tyS">
       <div class="sc"><b>92%</b><span>less ghost attendance</span></div>
@@ -443,8 +443,8 @@ tr:last-child td.ours{border-radius:0 0 16px 16px}
              or '' to keep the placeholder
    ================================================================ */
 function getTeam(){
-  var names = ['Ammar Hossam','Reem Tamer Osama','Omar Mokhtar','Youssef Amr ahmed ','Youssef Adel Mohamed','Youssef mohamed mohamed','Ahmed Galal'];
-  var photos = ['student1.jpg','student2.jpg','student3.jpg','student4.jpg','student5.jpg','student6.jpg','student7.jpg'];
+  var names = ['Ammar Hossam250103498','Youssef Elsayed250103057','Ahmed elsayed250101791','Mohamed ashraf240100647','Marez Raafat Lotfy250101845','Mohamed Elsayed250101106','Mohamed Galal230104435','Hazem Khalid ibrahim250103299'];
+  var photos = ['student1.jpg','student2.jpg','student3.jpg','student4.jpg','student5.jpg','student6.jpg','student7.jpg','student8.jpg'];
   return names.map(function(n,i){ return {name:n, photo:photos[i]||''} });
 }
 var TEAM = getTeam();
